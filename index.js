@@ -1,7 +1,8 @@
-let rect = {
+/*let rect = {
 	area: (x, y) => x*y, 
 	perimeter: (x, y) => 2*(x+y)
-};
+}; */
+let rect = require('./rectangle');
 
 solveRect = (l, b) => {
 	if(l <= 0 || b <= 0) {
